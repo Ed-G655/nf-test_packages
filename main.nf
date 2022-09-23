@@ -37,7 +37,7 @@ include {
  */
 
 workflow  {
-  TEST_GGPLOT(R_script_2)
-  // TEST_DPLYR(R_script_1)
+  // TEST_GGPLOT(R_script_2)
+  TEST_DPLYR(R_script_1)
   // TEST_PACMAN(R_script_3)
 }
