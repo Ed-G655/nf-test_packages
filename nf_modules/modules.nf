@@ -3,6 +3,7 @@
 /*Modulos de prueba para  nextflow */
 
 process TEST_GGPLOT {
+  conda 'r-ggplot2'
     input:
     file R_script_2
 
